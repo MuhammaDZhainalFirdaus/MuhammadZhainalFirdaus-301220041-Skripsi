@@ -1,0 +1,27 @@
+{
+  "dataset": "MH-100K",
+  "samples": 101934,
+  "original_features": 24583,
+  "selected_features": 4916,
+  "permission_features_original": 166,
+  "api_call_features_original": 24417,
+  "target_definition": "vt_detection >= 4",
+  "label_mapping": {
+    "0": "Benign",
+    "1": "Malware"
+  },
+  "train_test_split": "80:20 stratified",
+  "random_state": 42,
+  "baseline": {
+    "accuracy": 0.9755726688576053,
+    "precision": 0.8583333333333333,
+    "recall": 0.8933673469387755,
+    "f1_score": 0.8755
+  },
+  "after_rfe": {
+    "accuracy": 0.9749350076028842,
+    "precision": 0.8567208271787297,
+    "recall": 0.8877551020408163,
+    "f1_score": 0.8719619143071912
+  }
+}
